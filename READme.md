@@ -1,1 +1,1 @@
-Cowrywise official site 
+A direct replica of cowrywise official site
