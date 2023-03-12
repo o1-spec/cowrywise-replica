@@ -238,6 +238,7 @@ nav label ion-icon{
 }
 
 .hero-images{
+    padding-left: 8px;
     position: absolute;
     left: 0;
     top: 110%;

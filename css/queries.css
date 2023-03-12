@@ -227,15 +227,16 @@
         flex-direction: column;
     }
 
-    nav input,nav label ion-icon{
+    nav input,.menu-open{
         display: block;
+        cursor: pointer;
     }
 
     #click:checked ~ .link-nav{
         height: 100%;
         opacity: 1;
     }
-
+    
     .nav-link a{
         font-size: 3.1rem;
         color: #fff;
@@ -311,7 +312,11 @@
 
 @media(max-width: 43em){
     .download-box{
-        padding:  2rem 2rem 4rem 2rem;
+        padding:  4rem 2rem 4rem 2rem;
+    }
+
+    .download-box:nth-child(2){
+        padding-top: 4rem;
     }
 
     .promo{
@@ -429,6 +434,10 @@
 }
 
 @media(max-width: 35em){
+    .hero-img::before{
+        width: 60%;
+    }
+
     .why-section{
         padding: 0rem 0rem 0rem 4rem;
     }
@@ -496,5 +505,10 @@
 @media(max-width: 320px){
     html{
         font-size: 48%;
+    }
+
+    .hero-img::before{
+        width: 70%;
+        height: 120%;
     }
 }
